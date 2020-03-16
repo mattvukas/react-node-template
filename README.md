@@ -1,7 +1,5 @@
 # react-node-template
 
-future url: https://reactnodetemplate.com
-
 Example of this template app deployed and served by Heroku: https://react-node-temp.herokuapp.com/
 
 ## Local Dev Setup
