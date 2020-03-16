@@ -8,7 +8,8 @@ All commands run from project root:
 
 1. `cd src/client && npm install`
 2. `cd src/server && npm install`
-3. `npm run dev`
+3. install nodemon && concurrently globally
+4. `npm run dev`
 
 Enjoy!
 
