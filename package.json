@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cd src/server && npm install && node ./bin/www",
+    "start": "cd src/server && npm install && npm start",
     "dev": "concurrently \"cd src/server && nodemon\" \"cd src/client && npm start\"",
     "logs": "heroku logs -t",
     "heroku-postbuild": "cd src/client && npm install && npm run build"
