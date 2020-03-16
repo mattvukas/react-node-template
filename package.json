@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "cd src/server && node ./bin/www",
     "dev": "concurrently \"cd src/server && nodemon\" \"cd src/client && npm start\"",
     "logs": "heroku logs -t",
-    "heroku-postbuild": "cd src/client && npm && npm run build"
+    "heroku-postbuild": "cd src/client && npm install && npm run build"
   },
   "dependencies": {},
   "nodemonConfig": {
