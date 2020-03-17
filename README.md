@@ -58,8 +58,3 @@ This project can be deployed as is to Heroku. Check out the [Heroku deployment g
 ### Elsewhere
 
 Deploying to [Amazon Web Services](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/), [Google Cloud](https://cloud.google.com/nodejs), [Microsoft Azure](https://azure.microsoft.com/en-us/develop/nodejs/), etc should work similarly. Just make sure to run the `heroku-postbuild` script, which generates the React production files, before the `start` entry point is hit. Depending on your use case and hosting infrastructure, it might make sense to [Dockerize](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) this template.
-
-## TODO
-
-- cleanup unused express etc files
-- cleanup react app
