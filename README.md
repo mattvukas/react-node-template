@@ -16,8 +16,8 @@ In the interest of being bare-bones and unopinionated, React Node Template does 
 
 - **Routing:** [React Router](https://github.com/ReactTraining/react-router) is a good option.
 - **State management:** [Redux](https://github.com/reduxjs/redux) is most popular, but there are lighter weight solutions that may be better for some projects.
-- **Auth:** todo
-- **Component styling:** todo
+- **Auth:** Many options here, but [Auth0](https://auth0.com/docs/quickstart/spa/react/01-login) is one of the easier implementation paths.
+- **Component styling:** [Material-UI](https://material-ui.com/) is fairly turnkey way to get started, or [Styled Components](https://styled-components.com/) if you want the flexibility to design everything yourself.
 
 ## Development
 
@@ -60,10 +60,6 @@ Deploying to [Amazon Web Services](https://aws.amazon.com/getting-started/projec
 ## TODO
 
 - look into this https://hub.packtpub.com/github-introduces-template-repository-for-easy-boilerplate-code-management-and-distribution/
-- explain folder structure
 - cleanup unused express etc files
 - cleanup react app
 - add license
-- libraries: Material UI, Styled Components
-- auth: https://auth0.com/docs/quickstart/spa/react/01-login
-- node logo: https://commons.wikimedia.org/wiki/File:Node.js_logo.svg
