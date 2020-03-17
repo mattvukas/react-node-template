@@ -59,7 +59,5 @@ Deploying to [Amazon Web Services](https://aws.amazon.com/getting-started/projec
 
 ## TODO
 
-- look into this https://hub.packtpub.com/github-introduces-template-repository-for-easy-boilerplate-code-management-and-distribution/
 - cleanup unused express etc files
 - cleanup react app
-- add license
