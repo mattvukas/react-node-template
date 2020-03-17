@@ -40,7 +40,9 @@ You will now see the output of both the React dev server and the Node server in 
 
 ### Client<->Server Communication
 
-todo
+The Node Express.js server is initialized with one router mounted at `/api`. We've implemented a sample route at `/api/users`. Edit the `src/server/routes/api.js` file to add your own routes and server-side logic.
+
+In the React app, you can see in `src/client/src/App.js` where we're calling `/api/users` using `fetch`. `App.js` is a [functional component](https://reactjs.org/docs/components-and-props.html#function-and-class-components), so you can see how we're using `useEffect` to call our API on component mount, and `useState` to update component state when we receive a response from the API.
 
 ## Deployment
 
