@@ -21,6 +21,8 @@ In the interest of being bare-bones and unopinionated, React Node Template does 
 
 ## Development
 
+Just click the green **Use this template** button on the GitHub page for this repo to create your own project based off it.
+
 ### Project Structure
 
 - `src/client` contains the [React](https://reactjs.org/) app
