@@ -41,7 +41,8 @@ function App() {
         </p>
         <br />
         <p>
-          <code>GET /api/users</code>: {users.join(", ")}
+          <code>GET /api/users</code>:{" "}
+          {users.length ? users.join(", ") : "loading..."}
         </p>
         <br />
         <p>
